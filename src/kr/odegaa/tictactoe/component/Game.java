@@ -49,21 +49,17 @@ public class Game {
             if (drawVerifer.isDraw(gameTable)) {
                 System.out.println("Sorry, DRAW!");
                 break;
-
             }
-            userMove.make(gameTable);
+            computerMove.make(gameTable);
             dataPrinter.printGameTable(gameTable);
             if (winnerVerifier.isComputerWin(gameTable)) {
                 System.out.println("COMPUTER WIN!");
                 break;
-
             }
             if (drawVerifer.isDraw(gameTable)) {
                 System.out.println("Sorry, DRAW!");
                 break;
-
             }
-            break;
         }
         System.out.println("GAME OVER!");
     }

@@ -18,24 +18,6 @@ public class DataPrinter {
     }
 
     public void printGameTable(final GameTable gameTable) {
-
-//        System.out.println("-------------");
-//        System.out.println("| " +
-//                gameTable.getSign(new Cell(0, 0)) + "  | " +
-//                gameTable.getSign(new Cell(0, 1)) + "  | " +
-//                gameTable.getSign(new Cell(0, 2)) + " |");
-//        System.out.println("-------------");
-//        System.out.println("| " +
-//                gameTable.getSign(new Cell(1, 0)) + " | " +
-//                gameTable.getSign(new Cell(1, 1)) + " | " +
-//                gameTable.getSign(new Cell(1, 2)) + " |");
-//        System.out.println("-------------");
-//        System.out.println("| " +
-//                gameTable.getSign(new Cell(2, 0)) + " | " +
-//                gameTable.getSign(new Cell(2, 1)) + " | " +
-//                gameTable.getSign(new Cell(2, 2)) + " |");
-//        System.out.println("-------------");
-
         for (int i = 0; i < 3; i++) {
             System.out.println("-------------");
             for (int j = 0; j < 3; j++) {
@@ -44,6 +26,5 @@ public class DataPrinter {
             System.out.println("|");
         }
         System.out.println("-------------");
-
     }
 }
