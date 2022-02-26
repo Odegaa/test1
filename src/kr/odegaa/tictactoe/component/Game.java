@@ -43,7 +43,7 @@ public class Game {
             userMove.make(gameTable);
             dataPrinter.printGameTable(gameTable);
             if (winnerVerifier.isUserWin(gameTable)) {
-                System.out.println("YOU WIN!");
+                System.out.println("YOU WIN! 😀");
                 break;
             }
             if (drawVerifer.isDraw(gameTable)) {

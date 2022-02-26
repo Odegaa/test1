@@ -32,7 +32,7 @@ public class UserMove {
             final String userInput = new Scanner(System.in).nextLine();
             if (userInput.length() == 1) {
                 final char ch = userInput.charAt(0);
-                if ('1' < ch && ch < '9') {
+                if ('1' <= ch && ch <= '9') {
                     for (int i = 0; i < 3; i++) {
                         for (int j = 0; j < 3; j++) {
                             if (mapping[i][j] == ch) {
